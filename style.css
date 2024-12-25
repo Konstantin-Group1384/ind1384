@@ -1,0 +1,314 @@
+body{
+    background-color: #221518;
+    color: #F8F7F9;
+
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 64px;
+    font-weight: bold;
+    color: #F8E4BE;
+}
+
+
+a{
+    text-decoration: none;
+    color: #F8F7F9;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-image: url(./img/HERO\ \(1\).png);
+    background-position:120px 0px;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+}
+
+.glow{
+    display:block;
+    position: absolute;
+}
+
+.menu-center{
+    margin: 0px 18px 0px 609px;
+}
+
+.menu-center img{
+    margin-left: 7px;
+}
+
+.menu-right a{
+    margin-left: 22.4px;
+}
+
+.main-inside img{
+    margin: 140px 0px 0px 300px;
+}
+
+.main-inside p{
+    margin: -100px 0px 0px 300px;
+    width: 595px;
+    font-size: 24px;
+    color: #DABB9E;
+}
+
+.main-inside a{
+  color: #F8E4BE;
+  font-size: 24px;
+  background-color: #f7e1bc49;
+  padding: 12px 36px;
+  border-radius: 49px;
+  border-color: linear-gradient(60deg, rgba(224,168,114,1) 0%, rgba(248,228,190,1) 44%,
+   rgba(255,243,224,1) 55%, rgba(224,168,114,1) 100%);
+  border: 3px solid;
+}
+
+.main-inside-buttons{
+    margin-right: 904px;
+    margin-top: 86px;
+}
+
+.main-inside-bottom{
+    margin-left: 300px;
+    margin-top: 500px;
+    background-color: #4A2721;
+    border-radius: 49px;
+    width: 500px;    
+}
+
+.our-story {
+    background-color: #ad724a46;
+    margin: 120px 132px;
+    border-radius: 35px;
+}
+.our-story p{
+    width: 592px;
+}
+
+.our-story-left img{
+    margin-bottom: -200px;
+}
+
+.our-story-right h3{
+    font-family: "Dancing Script";
+    font-size: 54px;
+    font-weight: bold;
+    color: #F8E4BE;
+    
+    display:block;
+    position: absolute;
+    top: 1430px;
+    left: 1400px;
+}
+
+.our-story-right p{
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 592px;
+    line-height: 218.5%;
+}
+
+.our-story-right a{
+    border-bottom: 1px solid rgb(255, 255, 255); 
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
+.services h3{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.offer{
+    background-color: #ad724a4b;
+    margin: 64px 132px;
+    border-radius: 35px;
+    padding: 40px;
+}
+
+.offer-left h3{
+    font-family: "Dancing Script";
+    font-size: 54px;
+    font-weight: bold;
+    color: #F8E4BE;
+    
+    display:block;
+    position: absolute;
+    top: 2330px;
+    left: 200px;
+}
+
+
+.reserver-table-right div{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-top: 34px;
+    padding: 15px 0px;
+    margin: 34px 37px;
+}
+
+.reserver-table-right input{
+    margin-right: 438px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+}
+
+.reserver-table-right-inside{
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.reserver-table-right-inside div{
+    margin-right: 37px;
+    padding: 14px 152px 14px 12px;
+}
+
+.reserver-table-right-inside input{
+    margin-right: 0px;
+}
+
+phone a{
+   margin-left: 20px; 
+
+}
+
+.recomended h3{
+    margin-top: 148px;
+    margin-bottom: 64px;
+    text-align: center;
+
+    font-family: "Dancing Script";
+    font-size: 64px;
+    font-weight: bold;
+    color: #F8E4BE;
+}
+
+.recomended-card{
+    margin: 64px 39px;
+}
+
+.recomended-card-upside{
+    background-color: #ad724a3a;
+    border-radius: 35px 35px 0px 0px;
+}
+.recomended-card-downside{
+    background-color: #ffffff25;
+    border-radius: 0px 0px 35px 35px;
+}
+
+.recomended-card-upside-1{
+    margin-bottom: 285px;
+    margin-left: 20px;
+}
+
+.recomended-card-upside-3{
+    margin-top: 283px;
+    margin-right: 9px;
+}
+
+.recomended-card-downside{
+    padding: 17px 85px;
+}
+
+.popular-menu{
+    background-image: url('./img/Group\ 17.png');
+    background-repeat: no-repeat;
+    background-position: 0px -520px;
+    background-size: 1900px;
+}
+
+.popular-menu h2{
+    margin-bottom: 233px;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 64px;
+    font-weight: bold;
+    color: #F8E4BE;
+}
+
+
+.popular-menu-left{
+    margin-right: 441px;
+}
+
+.popular-menu-left h4{
+    font-family: "Dancing Script";
+    font-size: 48px;
+    font-weight: 600;
+    color: #F8E4BE;
+}
+.popular-menu-left span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F8E4BE;
+    margin-right: 96px;
+}
+
+
+
+
+
+
+.popular-menu-right h4{
+    font-family: "Dancing Script";
+    font-size: 48px;
+    font-weight: 600;
+    color: #F8E4BE;
+}
+.popular-menu-right span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F8E4BE;
+    margin-right: 96px;
+}
+
+
+
+
+.popular-menu-right h4{
+    font-family: "Dancing Script";
+    font-size: 48px;
+    font-weight: 600;
+    color: #F8E4BE;
+}
+.popular-menu-right span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F8E4BE;
+    margin-right: 96px;
+}
+
+.our-blog{
+    background-image: url('./img/Blog\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.our-blog-card{
+    text-transform: uppercase;
+}
+.our-blog-card h2{
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+
+
